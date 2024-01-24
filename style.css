@@ -1,0 +1,102 @@
+/* Reset default margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set a background color with a gradient for a futuristic feel */
+body {
+    background: linear-gradient(to bottom, #0d2538, #001f2f);
+    color: #fff; /* Set text color to white */
+    font-family: Arial, sans-serif; /* Use a modern sans-serif font */
+}
+
+/* Style the header */
+header {
+    background: #001f2f;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #00ADEF;
+    font-weight: bold;
+}
+
+/* Style the sections */
+section {
+    padding: 40px;
+}
+
+section h2 {
+    font-size: 24px;
+    color: #00ADEF;
+    margin-bottom: 20px;
+}
+
+/* Style the footer */
+footer {
+    background: #001f2f;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer p {
+    color: #00ADEF;
+    font-size: 14px;
+}
+
+/* Add hover effect for links */
+nav a:hover, footer p:hover {
+    color: #FFD700; /* Change link color on hover */
+}
+
+/* Add a border to the sections for a techy look */
+section {
+    border: 1px solid #00ADEF;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 173, 239, 0.7);
+}
+
+/* Style lists for services section */
+ul {
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+li::before {
+    content: "\2022"; /* Use a bullet point symbol for list items */
+    color: #00ADEF;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+/* Add some animations for a futuristic feel */
+header, section, footer {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 1s forwards;
+}
+
+@keyframes fadeInUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
