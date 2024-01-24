@@ -9,7 +9,7 @@
 body {
     background: linear-gradient(to bottom, #0d2538, #001f2f);
     color: #fff; /* Set text color to white */
-    font-family: Arial, sans-serif; /* Use a modern sans-serif font */
+    font-family: Monaco, monospace; /* Use a modern sans-serif font */
 }
 
 /* Style the header */
@@ -21,6 +21,10 @@ header {
 
 header h1 {
     font-size: 36px;
+}
+
+.away {
+  text-align: left;
 }
 
 nav ul {
