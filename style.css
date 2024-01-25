@@ -92,6 +92,10 @@ ul {
 .headshot {
     float: right;
     width: 33%;
+    padding: 10px;
+    border: 1px solid #00ADEF;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 173, 239, 0.7);
 }
 
 li::before {
