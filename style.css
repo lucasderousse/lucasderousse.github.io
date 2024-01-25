@@ -115,8 +115,9 @@ header, section, footer {
     animation: fadeInUp 1s forwards;
 }
 
-.aboutBody {
-  display: block;
+#aboutBody {
+  height: 100%;
+  width: 100%;
 }
 
 @keyframes fadeInUp {
