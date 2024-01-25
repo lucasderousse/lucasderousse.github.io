@@ -9,7 +9,7 @@
 
 /* Set a background color with a gradient for a futuristic feel */
 body {
-    min-height: 100vh;
+    height: 100vh;
     background: linear-gradient(to bottom, #0d2538, #001f2f);
     color: #fff; /* Set text color to white */
     font-family: Monaco, monospace; /* Use a modern sans-serif font */
